@@ -1,7 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using TMPro;
 
 public class collectFruit : MonoBehaviour
@@ -25,7 +23,14 @@ public class collectFruit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        counterText.text = counter.ToString();
+        if (counter >= 0)
+        {
+            counterText.text = counter.ToString();
+        }
+        else
+        {
+            counterText.text = "0";   
+        }
             
     }
 

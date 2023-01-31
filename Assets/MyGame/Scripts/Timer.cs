@@ -1,13 +1,26 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject mainScene;
+    [SerializeField]
+    private GameObject endScene;
 
     private float timeRemaining = 60;
     [SerializeField]
     private Text timeText;
+
+    [SerializeField]
+    private collectFruit collectFruit;
+    [SerializeField]
+    private Text textScore;
+
+    private void Start()
+    {
+        endScene.SetActive(false);
+    }
 
     void Update()
     {
@@ -18,7 +31,9 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            
+            mainScene.SetActive(false);
+            endScene.SetActive(true);
+            textScore.text = collectFruit.counter.ToString();
         }
     }
 
