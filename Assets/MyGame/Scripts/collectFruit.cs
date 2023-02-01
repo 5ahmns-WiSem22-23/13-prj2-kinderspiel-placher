@@ -70,13 +70,13 @@ public class CollectFruit : MonoBehaviour
             chewingBear.SetActive(true);
             randomColor.selectedFruit.SetActive(false);
             StartCoroutine(Waiting());
-            collision.transform.position = new Vector3((float)-2.2, (float)-3.5, 0);
+            collision.transform.position = new Vector3((float)-2.2, (float)-2.8, 0);
         }
 
         if (collision.name != "kiwi" && randomColor.selectedFruit.name == "kiwi-161728_1280 (1)")
          {
             counter--;
-            collision.transform.position = new Vector3(collision.gameObject.transform.position.x, (float)-3.5, 0);
+            collision.transform.position = new Vector3(collision.gameObject.transform.position.x, (float)-2.8, 0);
         }
         if (collision.name == "raspberry" && randomColor.selectedFruit.name == "raspberry-2161523_1280 (1)")
         {
@@ -84,14 +84,14 @@ public class CollectFruit : MonoBehaviour
             chewingBear.SetActive(true);
             randomColor.selectedFruit.SetActive(false);
             StartCoroutine(Waiting());
-            collision.transform.position = new Vector3((float)6.5, (float)-3.5, 0);
+            collision.transform.position = new Vector3((float)6.5, (float)-2.8, 0);
 
         }
      
         if (collision.name != "raspberry" && randomColor.selectedFruit.name == "raspberry-2161523_1280 (1)")
         {
             counter--;
-            collision.transform.position = new Vector3(collision.gameObject.transform.position.x, (float)-3.5, 0);
+            collision.transform.position = new Vector3(collision.gameObject.transform.position.x, (float)-2.8, 0);
         }
 
     }
