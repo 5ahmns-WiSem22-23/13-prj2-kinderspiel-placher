@@ -8,12 +8,12 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private GameObject endScene;
 
-    private float timeRemaining = 6;
+    private float timeRemaining = 60;
     [SerializeField]
     private Text timeText;
 
     [SerializeField]
-    private collectFruit collectFruit;
+    private CollectFruit collectFruit;
     [SerializeField]
     private Text textScore;
 
