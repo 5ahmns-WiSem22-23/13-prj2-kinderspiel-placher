@@ -4,7 +4,7 @@
 Digital version of the childeren game "Bärenhunger".
 
 ### Development platform: 
-Windows 11, Unity 2020.1.5f1, Visual Studio 2019
+Windows 11, Unity 2020.3.18f1, Visual Studio 2019
 
 ### Target platform: 
 WebGL, 1280x720
