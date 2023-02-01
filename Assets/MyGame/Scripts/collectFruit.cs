@@ -38,7 +38,6 @@ public class CollectFruit : MonoBehaviour
         {
             counter++;
             chewingBear.SetActive(true);
-            randomColor.selectedFruit.SetActive(false);
             StartCoroutine(Waiting());
             collision.transform.position = new Vector3((float)-5.7, (float)-3.5, 0);
         }
@@ -54,7 +53,7 @@ public class CollectFruit : MonoBehaviour
         {
             counter++;
             chewingBear.SetActive(true);
-            randomColor.selectedFruit.SetActive(false);
+            //randomColor.selectedFruit.SetActive(false);
             StartCoroutine(Waiting());
             collision.transform.position = new Vector3((float)2.7, (float)-3.5, 0);
         }
@@ -68,7 +67,7 @@ public class CollectFruit : MonoBehaviour
         {
             counter++;
             chewingBear.SetActive(true);
-            randomColor.selectedFruit.SetActive(false);
+            //randomColor.selectedFruit.SetActive(false);
             StartCoroutine(Waiting());
             collision.transform.position = new Vector3((float)-2.2, (float)-2.8, 0);
         }
@@ -82,7 +81,7 @@ public class CollectFruit : MonoBehaviour
         {
             counter++;
             chewingBear.SetActive(true);
-            randomColor.selectedFruit.SetActive(false);
+            //randomColor.selectedFruit.SetActive(false);
             StartCoroutine(Waiting());
             collision.transform.position = new Vector3((float)6.5, (float)-2.8, 0);
 
@@ -98,9 +97,9 @@ public class CollectFruit : MonoBehaviour
 
     IEnumerator Waiting()
     {
+        randomColor.selectedFruit.SetActive(false);
         yield return new WaitForSeconds((float)1.5);
         chewingBear.SetActive(false);
-        randomColor.RandomFood();
     }
 
 }
