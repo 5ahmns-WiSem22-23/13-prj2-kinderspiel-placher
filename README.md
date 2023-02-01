@@ -1,28 +1,15 @@
 # 13-prj2-kinderspiel-placher
 
 ### Project description: 
-Introduction/Project summary 
+Digital version of the childeren game "Bärenhunger".
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+Windows 11, Unity 2020.1.5f1, Visual Studio 2019
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+WebGL, 1280x920
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+![playing game](https://github.com/pklacher/13-prj2-kinderspiel-placher/blob/main/Screenshot1.jpg?raw=true)
 
-### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
-
-### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
-
-### Project state: 
-incl. progress in percent
-
-### Limitations: 
-
-### Lessons Learned: 
-
-Copyright by you :)
+Copyright by Pia Lacher
