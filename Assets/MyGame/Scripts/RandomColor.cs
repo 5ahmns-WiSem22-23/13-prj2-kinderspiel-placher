@@ -24,7 +24,6 @@ public class RandomColor : MonoBehaviour
     {
         index = Random.Range(0, fruits.Length);
         fruits[index].SetActive(true);
-        Debug.Log(fruits[index]);
         selectedFruit = fruits[index];
     }
 
