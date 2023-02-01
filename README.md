@@ -1,7 +1,7 @@
 # 13-prj2-kinderspiel-placher
 
 ### Project description: 
-Digital version of the childeren game "Bärenhunger".
+Digital version of the children game "Bärenhunger".
 
 ### Development platform: 
 Windows 11, Unity 2020.3.18f1, Visual Studio 2019
