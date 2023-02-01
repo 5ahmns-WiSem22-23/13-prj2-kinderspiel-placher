@@ -7,9 +7,9 @@ Digital version of the childeren game "Bärenhunger".
 Windows 11, Unity 2020.1.5f1, Visual Studio 2019
 
 ### Target platform: 
-WebGL, 1280x920
+WebGL, 1280x720
 
 ### Visuals: 
-![playing game](https://github.com/pklacher/13-prj2-kinderspiel-placher/blob/main/Screenshot1.jpg?raw=true)
+<img src="Visuals/Screenshot1.jpg" width="500">
 
 Copyright by Pia Lacher
